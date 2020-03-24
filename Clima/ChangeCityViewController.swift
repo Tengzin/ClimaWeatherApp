@@ -18,6 +18,14 @@ class ChangeCityViewController: UIViewController {
     //This is the pre-linked IBOutlets to the text field:
     @IBOutlet weak var changeCityTextField: UITextField!
     
+    @IBOutlet weak var getWeatherButton: UIButton!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        getWeatherButton.backgroundColor = UIColor.white
+        getWeatherButton.layer.cornerRadius = 15.0
+        
+    }
     
     //This is the IBAction that gets called when the user taps on the "Get Weather" button:
     @IBAction func getWeatherPressed(_ sender: AnyObject) {
