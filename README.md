@@ -12,6 +12,6 @@ On this screen, a user can type in any city and look up the weather conditions t
 
 ![alt text](ss1.png)
 
-Upon pressing the "Get Weather" button, the user is showed conditions in Toronto.
+Upon pressing the "Get Weather" button, the user is showed conditions in the new location.
 
 ![alt text](ss2.png)
